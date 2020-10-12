@@ -1,0 +1,22 @@
+#Question 1
+num_list = [100, 40, 60, 20, 50, 70]
+num_list.sort()
+print (num_list[-1])
+
+#Question 2
+print (num_list[-2])
+
+#Question 3
+num_list1 = [5, 65, 45, 95, 55]
+new_list = num_list + num_list1
+new_list.sort()
+print (new_list)
+
+#Question 4
+x = new_list[0]
+y = new_list[-1]
+new_list.pop(0)
+new_list.pop(-1)
+new_list.insert(0, y)
+new_list.append(x)
+print (new_list)
